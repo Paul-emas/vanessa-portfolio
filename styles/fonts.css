@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Noah';
+  src: url('../public/fonts/Noah/noah-bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Noah';
+  src: url('../public/fonts/Noah/noah-regular.otf');
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Noah', sans-serif;
+}
