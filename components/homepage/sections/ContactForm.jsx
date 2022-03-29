@@ -4,7 +4,7 @@ import isEmail from 'is-email'
 
 import Heading from './Heading'
 
-const Contact = () => {
+const ContactForm = () => {
   const { register, handleSubmit } = useForm()
 
   async function onSubmit(formData) {
@@ -63,4 +63,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default ContactForm

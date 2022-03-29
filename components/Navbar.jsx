@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
@@ -6,7 +7,11 @@ const Navbar = () => {
       <div className="container mx-auto px-20">
         <div className="flex h-full items-center justify-between">
           <div className="logo">
-            <Image src="/images/logo.png" width={22} height={45} />
+            <Link href="/">
+              <a>
+                <Image src="/images/logo.png" width={22} height={45} />
+              </a>
+            </Link>
           </div>
           <div className="flex">
             <a href="" className="px-7 text-lg text-secondary">
@@ -18,9 +23,9 @@ const Navbar = () => {
             <a href="" className="px-7 text-lg text-gray ">
               Works
             </a>
-            <a href="" className="px-7 text-lg text-gray ">
-              Contact me
-            </a>
+            <Link href="/contact">
+              <a className="px-7 text-lg text-gray ">Contact me</a>
+            </Link>
           </div>
         </div>
       </div>
