@@ -7,8 +7,8 @@ import Button from '../../Button'
 
 const ContactForm = () => {
   const router = useRouter()
-  const path = router.asPath
   const { register, handleSubmit } = useForm()
+  const path = router.asPath
 
   async function onSubmit(formData: any) {
     console.log(formData)
@@ -45,7 +45,7 @@ const ContactForm = () => {
                 className="mt-4 h-[50px] w-full rounded-[10px] border-2 border-transparent bg-dark px-7 text-gray shadow-none outline-none focus:border-secondary"
                 {...register('email', {
                   required: true,
-                  validate: (value) =>
+                  validate: (value: string) =>
                     isEmail(value) || 'Please enter a valid email',
                 })}
               />
