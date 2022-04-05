@@ -11,19 +11,19 @@ import Footer from '../components/homepage/sections/Footer'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="bg-base">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-     <Header />
-     <Quirks />
-     <Services />
-     <CaseStudies />
-     <Canival />
-     <ContactForm />
-     <Footer />
+      <Header />
+      <Quirks />
+      <Services />
+      <CaseStudies />
+      <Canival />
+      <ContactForm />
+      <Footer />
     </div>
   )
 }
