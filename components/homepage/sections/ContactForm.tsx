@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 import { useForm } from 'react-hook-form'
-import isEmail from 'is-email'
+
+import { validate } from 'email-validator'
 
 import Heading from './Heading'
 import Button from '../../Button'
@@ -46,7 +47,7 @@ const ContactForm = () => {
                 {...register('email', {
                   required: true,
                   validate: (value: string) =>
-                    isEmail(value) || 'Please enter a valid email',
+                    validate(value) || 'Please enter a valid email',
                 })}
               />
             </div>
