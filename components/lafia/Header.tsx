@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = ({ title, caption, image, info }) => {
             <div className="mt-[29px] text-grayDark">{caption}</div>
           </div>
           <div className="mt-[57px]">
-            {info?.map(({ name, text }) => (
+            {info?.map(({ name, text }: { name: string; text: string }) => (
               <p
                 key={name}
                 className="mb-5 flex items-center text-lg text-gray"
