@@ -13,9 +13,6 @@ const Services = () => {
               when it comes to a full fledged project. Whatever your needs are,
               I can pretty much take on any challenge.
             </Heading>
-            <div className="mt-16">
-              <Button>Learn more</Button>
-            </div>
           </div>
           <div>
             <Image src="/images/services-bg.png" width={397.14} height={412} />
