@@ -23,7 +23,7 @@ const Conclusion = () => {
             <a
               href="https://www.canva.com/design/DAE1tfG1NY4/MjqG3pvBRk1dQgHilmae-A/view?utm_content=DAE1tfG1NY4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
               target="_blank"
-              className="text-secondary"
+              className="text-secondary hover:underline"
             >
               https://www.canva.com/design/DAE1tfG1NY4/MjqG3pvBRk1dQgHilmae-A/view?utm_content=DAE1tfG1NY4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
             </a>

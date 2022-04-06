@@ -11,9 +11,9 @@ const PainPoints = () => {
         <StrokeIcon className="mb-9 ml-[450px]" />
         <BubbleIcon className="absolute left-1/2 top-80" />
         <LightStroke className="absolute left-2/3 top-[450px]" />
-        <div className="grid grid-cols-2 gap-x-20">
+        <Heading title={`Understanding the user`} />
+        <div className="grid grid-cols-2 gap-x-20 2xl:gap-x-0">
           <div className="max-w-[549px]">
-            <Heading title={`Understanding the user`} />
             <p className="text-2xl font-bold text-gray">
               “During research, in order to empathazie with the users, i took my
               time to understand them, and to do so i need to know their

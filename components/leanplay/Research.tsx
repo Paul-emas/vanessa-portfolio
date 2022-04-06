@@ -5,9 +5,9 @@ const Research = () => {
   return (
     <div className="bg-base py-52">
       <div className="container relative mx-auto px-20">
+        <Heading title={`User Research Summary`} />
         <div className="grid grid-cols-2">
           <div className="max-w-[549px]">
-            <Heading title={`User Research Summary`} />
             <p className="text-2xl font-bold text-gray">
               “For the seat reservation app for a movie theater, I carried out a
               Time on Task research plan.”
@@ -19,7 +19,7 @@ const Research = () => {
               30-31(Hi-fi)
             </p>
           </div>
-          <div className="-mt-16">
+          <div className="-mt-44">
             <Image
               src="/images/leanplay-research.png"
               width={532.82}

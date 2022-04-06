@@ -8,7 +8,7 @@ const Prototype = () => {
       <div className="container mx-auto px-20">
         <BubbleIcon className="relative left-2/3 mb-[68px] scale-150" />
         <Heading title={`Lo-fi Prototype`} />
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 gap-x-20">
           <div className="max-w-[549px]">
             <div className="text-lg text-gray">
               I decided to work the low fidelity prototype to carry out the
@@ -17,7 +17,7 @@ const Prototype = () => {
                 href="https://maze.co/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-secondary"
+                className="text-secondary hover:underline"
               >
                 maze.co
               </a>{' '}
@@ -33,7 +33,7 @@ const Prototype = () => {
               priority
               className="rounded-md"
             />
-            <BubbleIcon className="ml-11 mb-10" />
+            <BubbleIcon className="ml-11 mb-10 hidden 2xl:block" />
           </div>
         </div>
       </div>

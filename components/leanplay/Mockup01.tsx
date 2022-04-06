@@ -44,7 +44,7 @@ const Mockup01 = () => {
                 priority
                 className="mobile-mockup-2"
               />
-              <BubbleIcon className="ml-11 mb-5" />
+              <BubbleIcon className="ml-11 mb-10 hidden 2xl:block" />
             </div>
           </div>
         </div>

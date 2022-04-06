@@ -5,7 +5,7 @@ const Wireframe = () => {
   return (
     <div className="bg-base py-36">
       <div className="container mx-auto px-20">
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 gap-x-32 2xl:gap-x-0">
           <div className="max-w-[549px]">
             <Heading title={`Wireframes`} />
             <p className="text-2xl font-bold text-gray">
@@ -19,7 +19,7 @@ const Wireframe = () => {
               those wireframe.
             </p>
           </div>
-          <div className="-mt-16 -ml-32">
+          <div className="-mt-16 -ml-24 2xl:-ml-32">
             <Image
               src="/images/frame-3.png"
               width={699}

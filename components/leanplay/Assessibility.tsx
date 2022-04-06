@@ -5,9 +5,9 @@ const Assessibility = () => {
   return (
     <div className="bg-base py-36">
       <div className="container relative mx-auto px-20">
+        <Heading title={`Assessibility Considerstions`} />
         <div className="grid grid-cols-2 gap-x-20">
           <div className="max-w-[549px]">
-            <Heading title={`Assessibility Considerstions`} />
             <p className="text-2xl font-bold text-gray">
               “For the purpose of equity, here are a few assessibility
               considerations i had in mind. ”
@@ -54,7 +54,7 @@ const Assessibility = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="-mt-16">
             <Image
               src="/images/leanplay-dog.png"
               width={532.82}

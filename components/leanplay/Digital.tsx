@@ -24,7 +24,7 @@ const Digital = () => {
         </div>
 
         <div className="mt-32">
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 gap-x-20 2xl:gap-x-0">
             <div className="">
               <Image
                 src="/images/frame-8.jpg"
@@ -35,7 +35,7 @@ const Digital = () => {
                 className="rounded-md"
               />
             </div>
-            <div className="flex items-end">
+            <div className="items-end 2xl:flex">
               <Image
                 src="/images/frame-9.jpg"
                 width={555}
@@ -44,7 +44,7 @@ const Digital = () => {
                 priority
                 className="rounded-md"
               />
-              <BubbleIcon className="ml-11 mb-10" />
+              <BubbleIcon className="ml-11 mb-10 hidden 2xl:block" />
             </div>
           </div>
         </div>

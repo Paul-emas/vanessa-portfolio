@@ -8,17 +8,17 @@ const Hifi = () => {
       <div className="container mx-auto px-20">
         <BubbleIcon className="relative left-2/3 mb-[68px] scale-150" />
         <Heading title={`Hi-fi Prototype`} />
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 gap-x-20 2xl:gap-x-0">
           <div className="max-w-[549px]">
             <div className="text-lg text-gray">
               Here is the link to the prototype you can check it out:{' '}
               <a
-                href="https://www.figma.com/proto/6FUmuKGYdA6Jhxw67zPyiD?page-id=141%3A1022&nodeid=507%3A5419&scaling=contain&starting-point-node-id=507%3A5419"
+                href="https://www.figma.com/proto/6FUmuKGYdA6Jhxw67zPyiD/My-Google-Project?page-id=141%3A1022&node-id=507%3A5419&scaling=contain&starting-point-node-id=507%3A5419"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-secondary"
+                className="text-secondary hover:underline"
               >
-                https://www.figma.com/proto/6FUmuKGYdA6Jhxw67zPyiD?page-id=141%3A1022&nodeid=507%3A5419&scaling=contain&starting-point-node-id=507%3A5419
+                https://www.figma.com/proto/6FUmuKGYdA6Jhxw67zPyiD/My-Google-Project?page-id=141%3A1022&node-id=507%3A5419&scaling=contain&starting-point-node-id=507%3A5419
               </a>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Hifi = () => {
               priority
               className="rounded-md"
             />
-            <BubbleIcon className="ml-11 mb-10" />
+            <BubbleIcon className="ml-11 mb-10 hidden 2xl:block" />
           </div>
         </div>
       </div>
