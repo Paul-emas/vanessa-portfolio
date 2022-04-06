@@ -8,9 +8,9 @@ const Testimonials = () => {
       <div className="container mx-auto px-20">
         <Heading title="What they say 🤓" />
         <div className="mx-auto mt-[111px] max-w-5xl">
-          <div className="flex items-center gap-x-8">
+          <div className="flex items-center justify-center gap-x-8">
             <div>
-              <div className="h-[301px] w-[350px] rounded-lg bg-blue p-8">
+              <div className="h-[301px] w-[350px] rounded-lg bg-blue px-8 pt-8">
                 <div className="flex">
                   <div>
                     <QuoteIcon />
