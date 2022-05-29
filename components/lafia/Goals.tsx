@@ -3,7 +3,7 @@ import Heading from '../homepage/sections/Heading'
 
 const Goals = () => {
   return (
-    <div className="bg-base py-36">
+    <div className="bg-base">
       <div className="container mx-auto px-20">
         <div className="grid grid-cols-2 gap-x-20">
           <div className="max-w-[549px]">
@@ -22,15 +22,7 @@ const Goals = () => {
               rate, and also have their health records at their fingertips.
             </p>
           </div>
-          <div className="-mt-32">
-            <Image
-              src="/images/goals-bg.png"
-              width={553}
-              height={825}
-              objectFit="contain"
-              priority
-            />
-          </div>
+          <div className="-mt-32"></div>
         </div>
       </div>
     </div>

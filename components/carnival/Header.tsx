@@ -1,10 +1,16 @@
+import { useState } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import Heading from '../homepage/sections/Heading'
-import Image from 'next/image'
+import Modal from '../Modal'
 
 const Header = () => {
+  const [openModal, setOpenModal] = useState(false)
+  const [selectedImageUrl, setSelectedImageUrl] = useState('')
+
   const canivalNames = [
     'Mzaka',
     'MockUp',
@@ -22,6 +28,11 @@ const Header = () => {
 
   return (
     <div className="relative z-10 bg-base pt-[155px] pb-56">
+      <Modal
+        open={openModal}
+        setOpen={setOpenModal}
+        imageUrl={selectedImageUrl}
+      />
       <div className="container mx-auto px-20">
         <div className="grid grid-cols-2 gap-x-56">
           <div>
@@ -48,7 +59,11 @@ const Header = () => {
           {canivalNames.map((name, i) => (
             <div
               key={name}
-              className="relative h-[222px] w-[296px] overflow-hidden rounded-[10px]"
+              onClick={() => {
+                setOpenModal(true)
+                setSelectedImageUrl(`/images/canival/bg-${i + 1}.jpg`)
+              }}
+              className="relative h-[222px] w-[296px] cursor-pointer overflow-hidden rounded-[10px] 2xl:mx-auto"
             >
               <div className="absolute z-10 flex h-full w-full scale-150 items-center justify-center bg-overlay opacity-0 duration-200 hover:scale-100 hover:opacity-100">
                 <span className="text-2xl font-bold text-gray">{name}</span>

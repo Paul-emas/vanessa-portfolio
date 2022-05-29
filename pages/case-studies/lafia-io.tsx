@@ -39,14 +39,11 @@ const LafiaIo: NextPage = () => {
       </Head>
       <Navbar />
       <Header {...data} />
-      <Slider />
       <Overview />
       <Goals />
       <Personas />
       <Survey />
       <UserJourney />
-      <UserFlow />
-      <Wireframe />
       <Conclusion />
       <Footer />
     </div>

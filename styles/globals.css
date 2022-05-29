@@ -4,71 +4,85 @@
 
 /* Button */
 .btn-primary {
-    /* background: linear-gradient(red, purple); */
-    background: linear-gradient(90.92deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 99.66%);
-    box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.1),
+  /* background: linear-gradient(red, purple); */
+  background: linear-gradient(
+    90.92deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0) 99.66%
+  );
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.1),
     inset 5px 5px 10px rgba(255, 255, 255, 0.1);
-    filter: drop-shadow(0px 100px 80px rgba(248, 144, 132, 0.07)) drop-shadow(0px 64.8148px 46.8519px rgba(248, 144, 132, 0.0531481)) drop-shadow(0px 38.5185px 25.4815px rgba(248, 144, 132, 0.0425185)) drop-shadow(0px 20px 13px rgba(248, 144, 132, 0.035)) drop-shadow(0px 8.14815px 6.51852px rgba(248, 144, 132, 0.0274815)) drop-shadow(0px 1.85185px 3.14815px rgba(248, 144, 132, 0.0168519));
-    backdrop-filter: blur(45px);
-    z-index: 2;
-    border: 2px solid #F89084;
+  filter: drop-shadow(0px 100px 80px rgba(248, 144, 132, 0.07))
+    drop-shadow(0px 64.8148px 46.8519px rgba(248, 144, 132, 0.0531481))
+    drop-shadow(0px 38.5185px 25.4815px rgba(248, 144, 132, 0.0425185))
+    drop-shadow(0px 20px 13px rgba(248, 144, 132, 0.035))
+    drop-shadow(0px 8.14815px 6.51852px rgba(248, 144, 132, 0.0274815))
+    drop-shadow(0px 1.85185px 3.14815px rgba(248, 144, 132, 0.0168519));
+  backdrop-filter: blur(45px);
+  z-index: 2;
+  border: 2px solid #f89084;
 }
 
-
 .z-bg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 1042px;
-    height: 100%;
-    background-image: url('../public/images/z-bg.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top right;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1042px;
+  height: 100%;
+  background-image: url('../public/images/z-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+  z-index: -1;
 }
 
 .active-nav::before {
-    width: 10px;
-    height: 2px;
-    content: '';
-    position: absolute;
-    background: #F89084;
-    border-radius: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 0;
-    animation: activeTab .5s .3s 1 forwards;
-    transition: 0.6s cubic-bezier(0.83, 0, 0.17, 1);
-    opacity: 0;
+  width: 10px;
+  height: 2px;
+  content: '';
+  position: absolute;
+  background: #f89084;
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  animation: activeTab 0.5s 0.3s 1 forwards;
+  transition: 0.6s cubic-bezier(0.83, 0, 0.17, 1);
+  opacity: 0;
 }
 
 @keyframes activeTab {
-    0% {
-        width: 80%;
-        opacity: 0;
-    }
+  0% {
+    width: 80%;
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-        width: 10px;
-    }
+  100% {
+    opacity: 1;
+    width: 10px;
+  }
 }
 
 .mobile-mockup {
-    object-position: -50px 20px;
-    object-fit: cover;
-    transform: scale(1.3);
+  object-position: -50px 20px;
+  object-fit: cover;
+  transform: scale(1.3);
 }
 
 .mobile-mockup-2 {
-    object-position: -100px 60px;
-    object-fit: cover;
-    transform: scale(1.63);
+  object-position: -100px 60px;
+  object-fit: cover;
+  transform: scale(1.63);
 }
 
 .frost {
-    background-color: #000500c7;
-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
--webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  background-color: #000500c7;
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%)
+    brightness(140%);
+}
+
+.modal-overlay {
+  background: rgba(31, 16, 16, 0.5);
+  backdrop-filter: blur(10px);
 }

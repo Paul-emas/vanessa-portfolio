@@ -28,7 +28,7 @@ const LeanPlay: NextPage = () => {
   const data = {
     title: 'LeanPlay',
     caption:
-      'LeanPlay is a seat reservation app that enables users get tickets and reserve seats in advance for their selected movie.',
+      'LeanPlay is a seat reservation app that allows users get tickets and reserve seats in advance for a selected movie.',
     image: '/images/leanplay-bg.jpg',
     info: [
       { name: 'Role', text: 'Ux Designer, Ux Researcher' },
@@ -50,7 +50,6 @@ const LeanPlay: NextPage = () => {
       </Head>
       <Navbar />
       <Header {...data} />
-      <Slider />
       <Overview />
       <Goals />
       <User />

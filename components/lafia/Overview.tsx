@@ -3,7 +3,7 @@ import Heading from '../homepage/sections/Heading'
 
 const Overview = () => {
   return (
-    <div className="bg-base py-36">
+    <div className="bg-base pt-36">
       <div className="container mx-auto px-20">
         <div className="grid grid-cols-2">
           <div className="max-w-[549px]">

@@ -6,7 +6,7 @@ import Heading from '../homepage/sections/Heading'
 
 const PainPoints = () => {
   return (
-    <div className="bg-base py-36">
+    <div className="bg-base pb-16">
       <div className="container relative mx-auto px-20">
         <StrokeIcon className="mb-9 ml-[450px]" />
         <BubbleIcon className="absolute left-1/2 top-80" />

@@ -1,7 +1,8 @@
 import { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
+
 import Navbar from '../components/Navbar'
-import ContactForm from '../components/homepage/sections/ContactForm'
 import Footer from '../components/homepage/sections/Footer'
 import Header from '../components/carnival/Header'
 
@@ -14,7 +15,6 @@ const DesignCarnival: NextPage = () => {
       </Head>
       <Navbar />
       <Header />
-      <ContactForm />
       <Footer />
     </div>
   )

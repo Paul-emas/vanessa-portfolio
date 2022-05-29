@@ -4,7 +4,7 @@ import Heading from '../homepage/sections/Heading'
 
 const Testimonials = () => {
   return (
-    <div className="bg-base py-36">
+    <div className="bg-base py-16">
       <div className="container mx-auto px-20">
         <Heading title="What they say 🤓" />
         <div className="mx-auto mt-[111px] max-w-5xl">

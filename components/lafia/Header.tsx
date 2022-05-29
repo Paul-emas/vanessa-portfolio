@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import ArrowIcon from '../../public/svgs/arrow.svg'
 import ArrowLeftIcon from '../../public/svgs/arrowleft.svg'
 import React from 'react'
 
@@ -31,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ title, caption, image, info }) => {
             <div className="mt-[29px] text-grayDark">{caption}</div>
           </div>
           <div className="mt-[57px]">
-            {info?.map(({ name, text }: { name: string; text: string }) => (
+            {info?.map(({ name, text }: InfoProps) => (
               <p
                 key={name}
                 className="mb-5 flex items-center text-lg text-gray"
@@ -42,6 +43,13 @@ const Header: React.FC<HeaderProps> = ({ title, caption, image, info }) => {
                 <span className="max-w-xs pl-8">{text}</span>
               </p>
             ))}
+          </div>
+          <div className="mt-[108px] flex">
+            <div className="relative">
+              <ArrowIcon className="absolute left-[5px] top-1" />
+              <div className="h-5 w-5 rounded-full border border-gray"></div>
+            </div>
+            <div className="ml-[22px] text-lg text-gray">Scroll down</div>
           </div>
         </div>
       </div>

@@ -36,7 +36,6 @@ const IqaurticSmartCoder: NextPage = () => {
       </Head>
       <Navbar />
       <Header {...data} />
-      <Slider />
       <Overview />
       <Goals />
       <Wireframe />

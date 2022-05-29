@@ -18,11 +18,8 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
       <Header />
-      <Quirks />
-      <Services />
       <CaseStudies />
       <Canival />
-      <ContactForm />
       <Footer />
     </div>
   )

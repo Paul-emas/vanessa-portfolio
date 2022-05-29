@@ -4,7 +4,7 @@ import BubbleIcon from '../../public/svgs/bubble.svg'
 
 const Personas = () => {
   return (
-    <div className="bg-base py-36">
+    <div className="bg-base pb-16">
       <div className="container mx-auto px-20">
         <BubbleIcon className="relative left-2/3 mb-[68px] scale-150" />
         <Heading title={`Personas & Problem Statement`} />
