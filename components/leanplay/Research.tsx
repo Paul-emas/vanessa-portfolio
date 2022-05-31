@@ -3,7 +3,7 @@ import Heading from '../homepage/sections/Heading'
 
 const Research = () => {
   return (
-    <div className="bg-base py-52">
+    <div className="bg-base pt-52 pb-28">
       <div className="container relative mx-auto px-20">
         <Heading title={`User Research Summary`} />
         <div className="grid grid-cols-2">

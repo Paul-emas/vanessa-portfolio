@@ -14,9 +14,9 @@ const Overview = () => {
             <p className="mt-6 text-lg text-gray">
               Many users have had various experiences, mostly bad, in getting
               seats for a movie, it’s either the queue is too long for tickets
-              or you get to seat in an unfavorable place. We (the team) decided
-              to know more about these pain points and how our app can solve
-              their problems.
+              or you get to seat in an unfavorable place. I and the team decided
+              to know more about these pain points and how our app can solve the
+              problem.
             </p>
             <p className="mt-6 text-2xl font-bold text-gray">
               My reponsibilities:

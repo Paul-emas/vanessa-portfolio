@@ -1,7 +1,6 @@
 import { NextPage } from 'next'
 import Navbar from '../../components/Navbar'
 import CaseStudies from '../../components/homepage/sections/CaseStudies'
-import ContactForm from '../../components/homepage/sections/DesignAndI'
 import Footer from '../../components/homepage/sections/Footer'
 
 const CaseStudiesPage: NextPage = () => {

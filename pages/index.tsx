@@ -6,7 +6,6 @@ import Quirks from '../components/homepage/sections/Quirks'
 import Services from '../components/homepage/sections/Services'
 import CaseStudies from '../components/homepage/sections/CaseStudies'
 import Canival from '../components/homepage/sections/Canival'
-import ContactForm from '../components/homepage/sections/ContactForm'
 import Footer from '../components/homepage/sections/Footer'
 
 const Home: NextPage = () => {

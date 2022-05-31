@@ -1,8 +1,4 @@
-import {
-  faInstagram,
-  faLinkedin,
-  faTwitter,
-} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -25,7 +21,6 @@ const Footer = () => {
             </Link>
           </div>
           <div className="mt-[70px] flex justify-center space-x-6">
-            <FontAwesomeIcon icon={faInstagram} className="h-6 w-6 text-gray" />
             <FontAwesomeIcon icon={faLinkedin} className="h-6 w-6 text-gray" />
             <FontAwesomeIcon icon={faTwitter} className="h-6 w-6 text-gray" />
           </div>

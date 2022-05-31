@@ -68,7 +68,7 @@ const LeanPlay: NextPage = () => {
       <Assessibility />
       <Takeaways />
       <NextSteps />
-      <Conclusion />
+      <Conclusion caption="Continuously iterating and improving the high fidelity designs based on feedbacks is essential, i am happy to have taken the time to carry this out. But my journey doesn’t stop here....  " />
       <Footer />
     </div>
   )

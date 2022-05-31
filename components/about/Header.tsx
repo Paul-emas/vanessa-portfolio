@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import Heading from '../homepage/sections/Heading'
+import StrokeIcon from '../../public/svgs/stroke.svg'
+import LightStroke from '../../public/svgs/light-stroke.svg'
+import BubbleIcon from '../../public/svgs/bubble.svg'
 
 const Header = () => {
   return (
@@ -23,7 +26,10 @@ const Header = () => {
               and explore new places.
             </p>
           </div>
-          <div className="pt-40 2xl:pt-44">
+          <div className="relative pt-40 2xl:pt-44">
+            <LightStroke className="absolute top-20 -left-10 rotate-[270deg]" />
+            <StrokeIcon className="absolute bottom-0 -left-48" />
+            <BubbleIcon className="absolute top-36 right-36 z-20 scale-[2.2]" />
             <Image
               src="/images/about-bg.jpg"
               width={540}

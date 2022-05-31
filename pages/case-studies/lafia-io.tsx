@@ -44,7 +44,10 @@ const LafiaIo: NextPage = () => {
       <Personas />
       <Survey />
       <UserJourney />
-      <Conclusion />
+      <Conclusion
+        caption="After iterating upon the wireframes extensively and I was confident in the solution that I was creating, I then proceeded to start the design of the high fidelity version of those wireframe. I continuously iterate and improve the high fidelity designs based on feedbacks."
+        caption2="Overall, I'm happy I was able to build a solution that is scalable even with the constraints I had."
+      />
       <Footer />
     </div>
   )

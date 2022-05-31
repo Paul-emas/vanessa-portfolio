@@ -40,7 +40,7 @@ const IqaurticSmartCoder: NextPage = () => {
       <Goals />
       <Wireframe />
       <Revamp />
-      <Conclusion />
+      <Conclusion caption="After iterating upon the wireframes extensively and I was confident in the solution that I was creating. Continuously iterating and improving the high fidelity designs based on feedbacks is essential, i am happy to be part of this diverse and compassionate team that keeps bringing deep experience in technology to lead the healthcare revolution." />
       <Footer />
     </div>
   )
